@@ -1,19 +1,20 @@
 {
   "name": "FoundryModule",
-  "title": "FoundryModule",
-  "description": "Sharing data across worlds via Compendia.",
-  "author": "nightpanda2810",
+  "title": "Nightpanda's Compendia",
+  "description": "Sharing data across worlds via Compendia as explained by u/solfolango on r/FoundryVTT",
+  "author": "sts",
   "version": "1.0.0",
   "minimumCoreVersion": "0.5.0",
   "compatibleCoreVersion": "3.2.1",
   "packs": [
     {
-      "name": "Balatu",
+      "name": "balatu",
       "label": "Balatu",
       "path": "packs/balatu.db",
-      "module": "My-Shared-Compendia",
+      "module": "FoundryModule",
       "entity": "JournalEntry"
     }
-
   ],
+
+  "url": "https://github.com/nightpanda2810/FoundryModule"
 }
